@@ -77,4 +77,3 @@ selected <- rename(selected, Testsubject = subjectid, Action = activity)
 tidy <- melt(selected, id.vars = c("Subject", "Activity"))
 tidy <- arrange(tidy, Subject, Activity) %>% rename(Variable = variable, Value = value)
 write.table(tidy, file = "tidy.txt", row.names = FALSE)
-
