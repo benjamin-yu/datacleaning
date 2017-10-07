@@ -27,6 +27,8 @@ Variable names have been transformed to be human readable. From the original, me
 * "f" has been transformed to "Frequency" to denote a frequency measure
 * Syntax has been cleaned to be Camel Casing and invalid characters (parentheticals) have been removed.
 
+The rest of the name should be self explanatory as the subject being measured, and the axis being measured.
+
 ### Narrow vs. Wide Data Set
 For this assignment, I considered the narrow data set tidy. Since we don't know what problem this data set is for, and we don't know if all measures are required at each observation, in my point of view, the best way to organize this data is to make it long and narrow in order to better subset for analysis.
 
